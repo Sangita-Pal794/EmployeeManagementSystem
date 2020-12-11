@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="sangita" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="C:\Users\sangi\EmployeeManagementSystem\css\dashboard.css">
+    <script type="text/javascript" src=..\js\user1.js></script>
+</head>
+
+<body>
+    <form autocomplete="off">
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" onkeyup="validateEmail()" class="form-control" id="exampleInputEmail"
+            aria-describedby="emailHelp" placeholder="Enter email" required="require">
+            <div id="error2" style="color:red"></div>
+
+
+
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword">Password</label>
+            <input type="password" onkeyup="validatePassword()" class="form-control" id="exampleInputPassword"
+                placeholder="Password" required="require">
+        </div>
+        <div id="error3" style="color:red"></div>
+
+
+        <button type="submit" id="demo" onclick="myFunction()" class="btn-outline-primary">Submit</button>
+
+    </form>
+
+</body>
+
+</html>

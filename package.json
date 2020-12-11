@@ -1,0 +1,23 @@
+{
+  "name": "employeemanagementbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "sangita",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.7.0",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.0",
+    "nodemon": "^2.0.6",
+    "swagger-ui-express": "^4.1.5"
+  }
+}

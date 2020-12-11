@@ -1,0 +1,27 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    flex-shrink:1.0;
+    min-height: 100vh;
+    flex-wrap: wrap;
+
+}
+.child{
+height: 150px;
+width: 150px;
+}
+.child1{
+    background-color: teal;
+}
+.child2{
+    background-color: tomato;
+    flex-grow: 1;
+}
+.child3{
+    background-color: violet;
+}
+.child4{
+    background-color: yellow;
+}
